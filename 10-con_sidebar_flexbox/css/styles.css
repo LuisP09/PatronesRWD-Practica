@@ -49,3 +49,16 @@ p {
 
 
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+    .con-sidebar{
+        display: flex;
+        /*justify-content: space-between;*//*solo cuando se ocupa calc()*/
+        gap: 4rem;
+    }
+    aside{
+        flex: 1;/*El flex 1 es el factor de crecimiento, es el tamaño que crecera ese apartado un pixel cada pixel*/
+    }
+    articule{
+        flex: 3;/*El flex 3 es el factor de crecimiento, es el tamaño que crecera ese apartado tres pixeles cada pixel*/
+    }
+}

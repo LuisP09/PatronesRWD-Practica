@@ -37,3 +37,22 @@ p {
 }
 
 /** CODIGO AQUI **/
+.contenedor{
+    max-width: 120rem;/*Para delimitar los pixeles que ocupa y no estirar de mas */
+    width: 95%; /*Es mejor en % para que sea responsivo en todos los dispositivos*/
+    margin: 0 auto;/*Da el margen*/
+}
+@media (min-width: 768px) {
+    .contenedor{
+        width: 80%;
+    }
+}
+@media (min-width: 992px) {
+    .contenedor{
+        width: 60%;
+    }
+}
+
+img{
+    max-width: 100%;
+}
